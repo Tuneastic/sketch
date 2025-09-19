@@ -1,0 +1,30 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+    padding:0;
+}
+
+#gridContainerDiv {
+    display:flex;
+    flex-wrap:wrap;
+    height:100vh;
+
+}
+
+#gridContainerDiv div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing:border-box;
+    border: 1px solid #000;
+    background-color: gray;
+}
+
+#gridContainerDiv div.active {
+    background-color: black;
+}
+
+#button {
+    width:100%;
+    height:20px;
+}
